@@ -53,11 +53,15 @@ h1 {
   padding: 40px;
 }
 
+main h2 {
+  font-size: 2rem;
+}
+
 /* button decoration */
 li a {
   text-decoration: none;
   background: #ffffff;
-  padding: 15px 30px;
+  padding: 1rem 2rem;
   border-radius: 4px;
   color: black;
   text-transform: uppercase;
@@ -67,7 +71,7 @@ li a {
 .View-more {
   text-decoration: none;
   background: #ee2211;
-  padding: 10px 20px;
+  padding: 1rem 2rem;
   border-radius: 4px;
   color: #ffffff;
   place-self: end;
@@ -174,7 +178,7 @@ footer {
 /* Status of HTML elements */
 
 ul a:hover {
-  padding: 13px 28px;
+  padding: 0.875rem 1.875rem;
   border: solid #ee2211 2px;
 }
 
