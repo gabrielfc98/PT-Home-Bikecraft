@@ -3,51 +3,60 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Home Bikcraft</title>
-    <link rel="stylesheet" href="/style.css">
+    <title>Bikecraft</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <div class="logo">
-        <img src="/img/bikcraft.svg" alt="logo bikcraft">
-    </div>
-    <div class="menu">
-        <span class="infomenu">SOBRE</span>
-        <span class="infomenu">PRODUTOS</span>
-        <span class="infomenu">LOJAS</span>
-        <span class="infomenu">CONTATOS</span>
-    </div>
-    <div class="mural">
-        <div class="infos">
-            <span class="rect"></span>
-            <h1 class="t1">Bicicletas Feitas a Mão</h1>
-            <p class="p1">A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios da marca.</p>
-            <a class="ver-mais" href="/">VER MAIS</a>
-        </div>
-        <img class="bicicleta" src="/img/bicicleta.jpg" alt="Bicleta Bikcraft speed preta">
-        <h1 class="titulo">VANTAGENS BIKCRAFT</h1>
-        <!-- Vantagens Bikcraft -->
-        <div class="vantagens">
-            <div class="topicos">
-                <img class="vetor" src="/img/eletrica.svg" alt="">
-                <h2 class="tp">Motor Elétrico</h2>
-                <p>Permite você viajar distâncias inimagináveis com a sua bike.</p>
-            </div>
-            <div class="topicos">
-                <img class="vetor" src="/img/velocidade.svg" alt="">
-                <h2 class="tp">40 km/h</h2>
-                <p>A mais rápida biciclieta elétrica disponível hoje no mercado.</p>
-            </div>
-            <div class="topicos">
-                <img class="vetor" src="/img/rastreador.svg" alt="">
-                <h2 class="tp">Rastreador</h2>
-                <p>Rastreador e sistema anti-furto para garantir o seu sossego.</p>
-            </div>
-        </div>
-    </div>
-    <div class="footer">
-        <p>Bikcraft. Alguns Direitos Reservados.</p>
-    </div>
+    <!-- Header -->
+    <header class="logo">
+        <img src="./img/bikcraft.svg" alt="">
+    </header>
+    <!-- Navigation -->
+    <nav aria-label="primary navigation">
+        <ul>
+            <li><a href="http://">sobre</a></li>
+            <li><a href="http://">produtos</a></li>
+            <li><a href="http://">lojas</a></li>
+            <li><a href="http://">contatos</a></li>
+        </ul>
+    </nav>
+    <!-- Main Content -->
+    <main>
+        <article class="main-infos">
+            <h2>Bicicletas Feitas a Mão</h2>
+            <p>A Nimbus Sartk é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios da marca.</p>
+            <a class="View-more" href="http://">Ver mais</a>
+        </article>
+        <!-- Bicicle Image -->
+        <img class="bike-photo" src="./img/bicicleta.jpg" alt="Bicicleta bikcraft modelo speed preta">
+        <!-- advantage title -->
+        <section class="advantage-title">
+            <h2 class="title">Vantagens Bikcraft</h2>
+        </section>
+        <!-- list of advantages   -->
+        <dl class="advantages">
+            <section class="advantage-item">
+                <img class="logo-advantage" src="/img/eletrica.svg" alt="">
+                <dt>Motor Elétrico</dt>
+                <dd>Permite você viajar distâncias inimagináveis com a sua bike.</dd>
+            </section>
+            <section class="advantage-item">
+                <img class="logo-advantage" src="/img/velocidade.svg" alt="">
+                <dt>40 km/h</dt>
+                <dd>A mais rápida biciclieta elétrica disponível hoje no mercado.</dd>
+            </section>
+            <section class="advantage-item">
+                <img class="logo-advantage" src="/img/rastreador.svg" alt="">
+                <dt>Rastreaor</dt>
+                <dd>Rastreador e sistema anti-furto para garantir o seu sossego.</dd>
+            </section>
+        </dl>
+    </main>
+    <!-- Website footer -->
+    <footer>
+        <p>Bikcraft. Alguns Direitos Reservados</p>
+    </footer>
 </body>
 
 </html>
