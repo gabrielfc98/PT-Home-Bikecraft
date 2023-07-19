@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Bikecraft</title>
     <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -23,35 +24,42 @@
     </nav>
     <!-- Main Content -->
     <main>
-        <article aria-labelledby="label-information" class="main-infos">
-            <h2 id="label-information">Bicicletas Feitas a Mão</h2>
-            <p>A Nimbus Sartk é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios da marca.</p>
-            <a class="View-more" href="http://">Ver mais</a>
-        </article>
-        <!-- Bicicle Image -->
-        <img class="bike-photo" src="./img/bicicleta.jpg" alt="Bicicleta bikcraft modelo speed preta">
+        <div class="content">
+            <article aria-labelledby="label-information" class="main-infos">
+                <h2 id="label-information">Bicicletas Feitas a Mão</h2>
+                <p class="infos-p">A Nimbus Sartk é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios da marca.</p>
+                <a class="View-more" href="http://">Ver mais</a>
+            </article>
+            <!-- Bicicle Image -->
+            <div class="image-cover">
+                <img class="bike-photo" src="./img/bicicleta.jpg" alt="Bicicleta bikcraft modelo speed preta">
+            </div>
+
+        </div>
         <!-- advantage title -->
-        <section class="advantage-title">
-            <h2 class="title">Vantagens Bikcraft</h2>
-        </section>
-        <!-- list of advantages   -->
-        <dl class="advantages">
-            <section class="advantage-item">
-                <img class="logo-advantage" src="/img/eletrica.svg" alt="">
-                <dt>Motor Elétrico</dt>
-                <dd>Permite você viajar distâncias inimagináveis com a sua bike.</dd>
+        <div class="content content-advantage">
+            <section class="advantage-title">
+                <h2 class="title">Vantagens Bikcraft</h2>
             </section>
-            <section class="advantage-item">
-                <img class="logo-advantage" src="/img/velocidade.svg" alt="">
-                <dt>40 km/h</dt>
-                <dd>A mais rápida biciclieta elétrica disponível hoje no mercado.</dd>
-            </section>
-            <section class="advantage-item">
-                <img class="logo-advantage" src="/img/rastreador.svg" alt="">
-                <dt>Rastreaor</dt>
-                <dd>Rastreador e sistema anti-furto para garantir o seu sossego.</dd>
-            </section>
-        </dl>
+            <!-- list of advantages   -->
+            <dl class="advantages">
+                <section class="advantage-item">
+                    <img class="logo-advantage" src="/img/eletrica.svg" alt="">
+                    <dt>Motor Elétrico</dt>
+                    <dd>Permite você viajar distâncias inimagináveis com a sua bike.</dd>
+                </section>
+                <section class="advantage-item">
+                    <img class="logo-advantage" src="/img/velocidade.svg" alt="">
+                    <dt>40 km/h</dt>
+                    <dd>A mais rápida biciclieta elétrica disponível hoje no mercado.</dd>
+                </section>
+                <section class="advantage-item">
+                    <img class="logo-advantage" src="/img/rastreador.svg" alt="">
+                    <dt>Rastreaor</dt>
+                    <dd>Rastreador e sistema anti-furto para garantir o seu sossego.</dd>
+                </section>
+            </dl>
+        </div>
     </main>
     <!-- Website footer -->
     <footer>

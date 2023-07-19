@@ -12,7 +12,7 @@ body {
   margin-top: 60px;
 }
 
-main {
+.content {
   display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 1000px;
@@ -188,4 +188,81 @@ ul a:hover {
 
 .advantage-item:hover {
   border-left: solid #ee2211 2px;
+}
+
+/* Responsive Design */
+
+@media (max-width: 1000px) {
+  .main-infos::after {
+    display: none;
+  }
+  .content-advantage {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 880px) {
+  .image-cover img {
+    object-fit: cover;
+    height: 100%;
+    object-position: top center;
+  }
+
+  .title {
+    font-size: 3rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 625px) {
+  .logo {
+    margin-top: 30px;
+  }
+  body {
+    gap: 40px;
+  }
+  .main-infos::after {
+    display: none;
+  }
+  .content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  li a {
+    padding: 0.5rem 1rem;
+  }
+
+  .View-more {
+    padding: 0.5rem 1rem;
+  }
+
+  ul a:hover {
+    padding: 0.375rem 0.875rem;
+    border: solid #ee2211 2px;
+  }
+
+  ul {
+    gap: 10px;
+  }
+
+  footer {
+    padding: 30px;
+  }
+
+  .main-infos {
+    justify-items: start;
+  }
+
+  .infos-p {
+    text-align: left;
+  }
+  .View-more {
+    justify-self: start;
+  }
+  .title {
+    text-align: center;
+    font-size: 3rem;
+  }
 }
