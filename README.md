@@ -5,9 +5,13 @@ Visão Tela Desktop:
 ![screencapture-127-0-0-1-5500-2023-07-15-11_00_40](https://github.com/gabrielfc98/PT-Home-Bikecraft/assets/122616019/7cc05f41-78e1-4660-af82-e5badc5c7d52)
 
 Visão Tela Tablet:
-
+![Tablet](https://github.com/gabrielfc98/PT-Home-Bikecraft/assets/122616019/9104bdd1-69f6-4f53-929c-171a239b8076)
 
 Visão Tela Mobile:
+
+<p align="center">
+  <img src="https://github.com/gabrielfc98/PT-Home-Bikecraft/assets/122616019/f537be79-153a-4515-b180-62ed4650448f">
+</p>
 
 Os botões de navegação da página sofreram estilização específica, utilizando pseudo classes, para que mudassem seu estado de acordo com a interação do usuário. 
 
