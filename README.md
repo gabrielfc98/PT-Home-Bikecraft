@@ -1,7 +1,13 @@
 # PT-Home-Bikecraft
-Protótipo de página Home para um site de venda de biciletas. A página foi contruída utilizando HTML e estilizada com CSS. Vale ressaltar que o protótipo ainda não se encontra responsivo, o mesmo foi apenas constuído para explorar grids e alinhamento de itens na página. 
+Protótipo de página Home para um site de venda de biciletas. A página foi contruída utilizando HTML e estilizada com CSS. O projeto encontra-se responsivo à diferente tamanhos de tela como Desktop, Tablet e Mobile.
 
+Visão Tela Desktop:
 ![screencapture-127-0-0-1-5500-2023-07-15-11_00_40](https://github.com/gabrielfc98/PT-Home-Bikecraft/assets/122616019/7cc05f41-78e1-4660-af82-e5badc5c7d52)
+
+Visão Tela Tablet:
+
+
+Visão Tela Mobile:
 
 Os botões de navegação da página sofreram estilização específica, utilizando pseudo classes, para que mudassem seu estado de acordo com a interação do usuário. 
 
