@@ -1,8 +1,32 @@
 /* general positioning */
 
+@media (prefers-color-scheme: light) {
+  :root {
+    --background: #f7f7f7;
+    --highlit-title-2: #c6c6c6;
+    --background-text: #ffffff;
+    --text-color: #black;
+    --decoration: #ee2211;
+    --decoration-2: #900;
+    --onda: url("./img/onda-light.svg");
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #141414;
+    --highlit-title-2: #8f8f8f;
+    --background-text: #292929;
+    --text-color: #f0f0f0;
+    --decoration: #ee2211;
+    --decoration-2: #900;
+    --onda: url("./img/onda-dark.svg");
+  }
+}
+
 body {
   display: grid;
-  background: #f7f7f7;
+  background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
   gap: 60px;
   justify-items: center;
@@ -30,6 +54,7 @@ dd {
   font-size: 1.25rem;
   margin: 0px;
   line-height: 1.3;
+  color: var(--text-color);
 }
 dt {
   font-size: 1.25rem;
@@ -41,11 +66,12 @@ dt {
 h2,
 h1 {
   margin: 0px;
+  color: var(--text-color);
 }
 
 .title {
   font-size: 4rem;
-  color: #c6c6c6;
+  color: var(--highlit-title-2);
   line-height: 1.2;
   text-transform: uppercase;
   align-self: center;
@@ -60,20 +86,20 @@ main h2 {
 /* button decoration */
 li a {
   text-decoration: none;
-  background: #ffffff;
+  background: var(--background-text);
   padding: 1rem 2rem;
   border-radius: 4px;
-  color: black;
+  color: var(--text-color);
   text-transform: uppercase;
   display: block;
 }
 
 .View-more {
   text-decoration: none;
-  background: #ee2211;
+  background-color: var(--decoration);
   padding: 1rem 2rem;
   border-radius: 4px;
-  color: #ffffff;
+  color: var(--text-color);
   place-self: end;
 }
 
@@ -101,7 +127,7 @@ dd {
   place-content: center;
   gap: 20px;
   padding: 40px;
-  background: #ffffff;
+  background: var(--background-text);
   position: relative;
 }
 
@@ -114,7 +140,7 @@ h2 p {
   content: "";
   width: 60px;
   height: 4px;
-  background-color: #ee2211;
+  background-color: var(--decoration);
   display: inline-block;
   position: absolute;
   left: 475px;
@@ -129,13 +155,13 @@ h2 p {
 }
 
 .title {
-  background-image: url("./img/onda.svg");
+  background-image: var(--onda);
 }
 
 /*list of advantages template  */
 
 .advantages {
-  background: #ffffff;
+  background: var(--background-text);
   display: grid;
   padding: 40px;
   gap: 20px;
@@ -158,7 +184,7 @@ dt {
 }
 
 dl section:nth-child(odd) {
-  background: #f7f7f7;
+  background: var(--background);
 }
 
 dl section {
@@ -168,7 +194,7 @@ dl section {
 /* footer */
 
 footer {
-  background: #fff;
+  background: var(--background-text);
   padding: 40px;
   width: 100%;
   box-sizing: border-box;
@@ -179,15 +205,15 @@ footer {
 
 ul a:hover {
   padding: 0.875rem 1.875rem;
-  border: solid #ee2211 2px;
+  border: solid var(--decoration) 2px;
 }
 
 .View-more:hover {
-  background: #900;
+  background: var(--decoration-2);
 }
 
 .advantage-item:hover {
-  border-left: solid #ee2211 2px;
+  border-left: solid var(--decoration) 2px;
 }
 
 /* Responsive Design */
