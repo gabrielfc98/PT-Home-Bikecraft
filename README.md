@@ -13,6 +13,10 @@ Visão Tela Mobile:
   <img src="https://github.com/gabrielfc98/PT-Home-Bikecraft/assets/122616019/f537be79-153a-4515-b180-62ed4650448f">
 </p>
 
+Além disso, o site tem reposividade para modo claro e escuro a depender das preferências do usuário. A seguir o modo escuro em modo desktop:
+
+![screencapture-127-0-0-1-5500-2023-08-12-20_40_17](https://github.com/gabrielfc98/PT-Home-Bikecraft/assets/122616019/58524c37-e6e1-4f37-be3b-a333171da323)
+
 Os botões de navegação da página sofreram estilização específica, utilizando pseudo classes, para que mudassem seu estado de acordo com a interação do usuário. 
 
 Os botões do menu primário de navegação ganham uma borda vermelha quando o usuário passa o mouse por cima dos elementos. 
